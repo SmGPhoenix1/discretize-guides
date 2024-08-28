@@ -1,9 +1,20 @@
 ---
+title: Condi (Alac) Renegade
 hidden: false
 archive: false
 hasBeginner: false
+rating: Meta
+role: Condi Damage
 author: PineappleMan.1430
+profession: Revenant
 specialization: Renegade
+conditions:
+  - name: Vulnerability
+    uptime: 15 stacks
+  - name: Torment
+  - name: Burning
+  - name: Bleeding
+  - name: Poisoned
 boons:
   - name: Alacrity
     uptime: 100%
@@ -12,34 +23,23 @@ boons:
     uptime: 13 stacks
     variant: party
 code: "[&DQkOHQMuPzrcEQAABhIAACsSAADUEQAAyhEAAAQFAAArEgYS1BEAAAAAAAA=]"
+cmGuide: ""
 classification:
   - 4
   - 3
   - 4
   - 3
   - 5
-date: "2023-10-21T16:37:13.300Z "
-title: Condi (Alac) Renegade
-rating: Meta
-role: Condi Damage
-profession: Revenant
-conditions:
-  - name: Vulnerability
-    uptime: 15 stacks
-  - name: Torment
-  - name: Burning
-  - name: Bleeding
-  - name: Poisoned
-cmGuide: ""
+date: "2024-08-28T17:25:27.421Z "
 ---
  
 <Warning>
 
-This build is mainly to be used in condition comps. In power comps <BuildLink build="Power Renegade" specialization="Renegade"/> is strictly better due to a lot of factors such as quick burst, more support, and more versatility.
+This build is mainly to be used in condition comps in (such as Sunqua Peak CM and Silent Surf CM). In power comps <BuildLink build="Power Renegade" specialization="Renegade"/> is strictly better due to a lot of factors such as quick burst, more support, and more versatility.
 
 </Warning> 
 
-Condi <Specialization name="Renegade"/> is an unique build that may only be played in condition comps, since it performs much better than <BuildLink build="Power Renegade" specialization="Renegade"/>. Condi <Specialization name="Renegade"/> has decent damage output and can be pretty efficient when played properly. Condi <Specialization name="Renegade"/> provides <Boon name="Alacrity"/> and some <Boon name="Might"/> through <Skill id="45537"/> and <Skill id="44076"/> respectively. Finally, to top it off this build has high CC capabilities with <Skill id="41220"/>, <Skill id="28409"/> and <Skill id="41820"/>.
+Condi <Specialization name="Renegade"/> is an unique build that should only be played in condition comps, since it performs much better than <BuildLink build="Power Renegade" specialization="Renegade"/>. Condi <Specialization name="Renegade"/> has a high damage output and can be pretty efficient when played properly. Condi <Specialization name="Renegade"/> provides <Boon name="Alacrity"/> and some <Boon name="Might"/> through <Skill id="45537"/> and <Skill id="44076"/> respectively. Finally, to top it off this build has high CC capabilities with <Skill id="41220"/>, <Skill id="28409"/> and <Skill id="41820"/>.
 
 Condi <Specialization name="Renegade"/> is pretty independent due to its rather good mobility (<Skill id="28029"/>, <Skill id="27917"/>) and permanent 25 <Boon name="Might"/> thanks to <Skill id="44076"/> and <Trait id="1781"/>.
 
@@ -121,47 +121,13 @@ Do not use <Skill id="45537"/> right before a mechanic or any reason that would 
 
 </Warning>
 
-### Key Skills
 
-<Skill id="41858"/> skills:
-
-- <Skill id="45686"/>: self heal + pulsing area heal skill
-- <Skill id="42949"/>: excellent damage source and applies a lot of <Condition name="Bleeding"/>
-- <Skill id="40485"/>: suboptimal on Condi <Specialization name="Renegade"/>, however, still a good source of <Condition name="Vulnerability"/>
-- <Skill id="41220"/>: very good CC skill that does a total of 600 break bar damage
-- <Skill id="45773"/>: a situational skill that allows your party members to quickly replenish their health at the cost of damage when you are attuned to <Skill id="41858"/>
-
-<Skill id="28494"/> skills:
-
-- <Skill id="27505"/>: Removes three boons from up to five unique enemies in a line and applies <Condition name="Chilled"/> on enemies hit.
-- <Skill id="27917"/>: pretty good mobility skill that also does 150 breakbar damage
-- <Skill id="28287"/>: one of your most important damage skills as it applies a lot of <Condition name="Torment"/>
-
-Shortbow skills:
-
-- <Skill id="40175"/>: fast and low-cost damage skill and applies some <Condition name="Bleeding"/>
-- <Skill id="41829"/>: very good damage skill and applies a good amount of <Condition name="Torment"/>
-- <Skill id="43993"/>: good damage skill and applies <Condition name="Burning"/> and <Condition name="Slow"/>
-- <Skill id="41820"/> : applies <Condition name="Burning"/> and does 200 breakbar damage
-
-Mace/Axe skills:
-
-- <Skill id="28357"/>: fast and low-cost damage skill and applies <Condition name="Burning"/>
-- <Skill id="27964"/>: fast and low-cost damage skill and a good mobility skill as well, applies <Condition name="Torment"/>
-- <Skill id="28029"/>: good mobility skill
-- <Skill id="28409"/>: good damage skill that deals good amount of breakbar damage as well, applies <Condition name="Torment"/>
-
-<Specialization name="Renegade"/> skills:
-
-- <Skill id="44076"/>: give 2 <Boon name="Might"/> to you and your group per <SpecialActionKey name="KallasFervor"/> you have
-- <Skill id="41294"/>: your best burst skill that applies a lot of <Condition name="Burning"/>
-- <Skill id="45537"/>: one of your most important skills as it gives <Boon name="Alacrity"/> to you and your group
 
 <Divider text="Rotation / Skill usage"/>
 
-<Specialization name="Renegade" text="Condi Renegade"/>'s raid rotation is not super efficient in fractals due to the lack of time to ramp up with <Skill id="28494"/>, and the fact that you want to save skills you usually use while in <Skill id="41858"/> to CC or keep skills like <Skill name="Citadel Bombardment"/> for exposed phases.
+<Specialization name="Renegade" text="Condi Renegade"/>'s rotation is similar in both raids and fractals. Ideally you want to save skills you usually use while in <Skill id="41858"/> to CC or keep skills like <Skill id="73059"/> for exposed phases.
 
-You'll want to respect these rules :
+Try to following these rules :
 
 1.  <Skill id="41858"/> : be on Mace/Axe
 2.  <Skill id="28494"/> : be on Shortbow
